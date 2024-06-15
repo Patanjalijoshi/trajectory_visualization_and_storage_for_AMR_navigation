@@ -23,7 +23,7 @@ As shown in the assignment document using the AR100 package
 http://wiki.ros.org/AnscerRobotics/AR100
 
 1. roslaunch start_anscer start_anscer.launch
-2. roslaunch anscer_navigation anscer_navigation.launch map_name:=anscer_map 
+2. roslaunch anscer_navigation anscer_navigation.launch map_name:=<map_name>
 
 In the work space where the repo is cloned
 1. rosrun my_cpp_package trajectory_saver_publisher_node 
