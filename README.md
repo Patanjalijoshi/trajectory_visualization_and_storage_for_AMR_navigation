@@ -25,7 +25,7 @@ http://wiki.ros.org/AnscerRobotics/AR100
 1. roslaunch start_anscer start_anscer.launch
 2. roslaunch anscer_navigation anscer_navigation.launch map_name:=anscer_map 
 
-In the bot_ws
+In the work space where the repo is cloned
 1. rosrun my_cpp_package trajectory_saver_publisher_node 
 2. rosservice call /save_trajectory "my_trajectory.csv" 5   {passing file name and duration }
 3. rosrun my_cpp_package trajectory_reader_publisher_node my_trajectory.csv   {passing the file name} 
