@@ -1,0 +1,4 @@
+string file_name
+int32 duration_seconds
+---
+bool success
